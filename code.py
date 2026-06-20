@@ -11,6 +11,8 @@ df = pd.DataFrame({
 #adding new row to the dataframe
 new_row = {'Name': 'simmi', 'Age': 29, 'City': 'San Francisco'}
 df.loc[len(df)] = new_row
+new_row = {'Name': 'jass', 'Age': 24, 'City': 'amritsar'}
+df.loc[len(df)] = new_row
 
 # making directory
 output_dir = 'data'
