@@ -9,7 +9,7 @@ df = pd.DataFrame({
 })
 
 #adding new row to the dataframe
-new_row = {'Name': 'Eve', 'Age': 28, 'City': 'San Francisco'}
+new_row = {'Name': 'simmi', 'Age': 29, 'City': 'San Francisco'}
 df.loc[len(df)] = new_row
 
 # making directory
